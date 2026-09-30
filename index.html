@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin Otieno | Personal Website</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #263238;
+            background: #eef2f7;
+            line-height: 1.6;
+        }
+
+        nav {
+            background: #17365d;
+            padding: 16px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 5px 16px;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 24px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px #00000012;
+        }
+
+        h1, h2 {
+            color: #17365d;
+        }
+
+        h2 {
+            border-bottom: 2px solid #17365d;
+            padding-bottom: 8px;
+        }
+
+        .profile {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #17365d;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 18px;
+        }
+
+        th, td {
+            border: 1px solid green;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: lightblue;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            background: #17365d;
+            padding: 18px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                margin: 4px 8px;
+            }
+
+            section {
+                padding: 22px 18px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav aria-label="Main menu">
+        <a href="#home">Home</a>
+        <a href="#personal-experience">Personal experience</a>
+        <a href="#contacts">Contacts</a>
+        <a href="#hobbies">Hobbies</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <!-- Keep joan.jpg in the same folder as this HTML file, or change the filename below. -->
+            <img class="profile" src="joan.jpg" alt="Photo of Edwin Otieno">
+            <hr>
+
+            <h1>Edwin Otieno</h1>
+            <p>
+                I am an Information Technology student at Kisii University,
+                studying for a Bachelor of Information Technology. I am
+                interested in software development, computer systems,
+                databases, and emerging technologies.
+            </p>
+            <p>
+                I enjoy learning practical technology skills and using them
+                to solve real-world problems. After completing my course,
+                I hope to build a career in the IT field and contribute to
+                useful software and technology projects.
+            </p>
+        </section>
+
+        <section id="personal-experience">
+            <h2>Personal experience</h2>
+            <p>My education and experience are summarized below.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Institutions attended</th>
+                        <th>Awards given</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2025–Present</td>
+                        <td>Kisii University — Bachelor of Information Technology</td>
+                        <td>Not provided</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Ugenya High School — Kenya Certificate of Secondary Education</td>
+                        <td>Not provided</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <p>📞 Phone: <a href="tel:+254796331494">0796331494</a></p>
+            <p>
+                ✉ Email:
+                <a href="mailto:otienoedwin097@gmail.com">
+                    otienoedwin097@gmail.com
+                </a>
+            </p>
+            <p>📍Location: Kenya</p>
+            <p>
+                <a href="mailto:otienoedwin097@gmail.com">Email me</a>
+            </p>
+            <hr>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>
+                My interests include <li>web development</li> <li>software development</li>
+                <li>computer systems</li> <li>learning about emerging technologies</li>.
+            </p>
+        </section>
+    </main>
+
+    <footer>© 2026 Edwin Otieno</footer>
+</body>
+</html>
